@@ -1,0 +1,14 @@
+/Users/zlind/Documents/github/zlind1/games/mobile/ZLGames/ZLGames/bin/Debug/netstandard2.0/ZLGames.deps.json
+/Users/zlind/Documents/github/zlind1/games/mobile/ZLGames/ZLGames/bin/Debug/netstandard2.0/ZLGames.dll
+/Users/zlind/Documents/github/zlind1/games/mobile/ZLGames/ZLGames/bin/Debug/netstandard2.0/ref/ZLGames.dll
+/Users/zlind/Documents/github/zlind1/games/mobile/ZLGames/ZLGames/bin/Debug/netstandard2.0/ZLGames.pdb
+/Users/zlind/Documents/github/zlind1/games/mobile/ZLGames/ZLGames/obj/Debug/netstandard2.0/ZLGames.csprojAssemblyReference.cache
+/Users/zlind/Documents/github/zlind1/games/mobile/ZLGames/ZLGames/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/zlind/Documents/github/zlind1/games/mobile/ZLGames/ZLGames/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/zlind/Documents/github/zlind1/games/mobile/ZLGames/ZLGames/obj/Debug/netstandard2.0/ZLGames.AssemblyInfoInputs.cache
+/Users/zlind/Documents/github/zlind1/games/mobile/ZLGames/ZLGames/obj/Debug/netstandard2.0/ZLGames.AssemblyInfo.cs
+/Users/zlind/Documents/github/zlind1/games/mobile/ZLGames/ZLGames/obj/Debug/netstandard2.0/ZLGames.csproj.CoreCompileInputs.cache
+/Users/zlind/Documents/github/zlind1/games/mobile/ZLGames/ZLGames/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/zlind/Documents/github/zlind1/games/mobile/ZLGames/ZLGames/obj/Debug/netstandard2.0/ZLGames.dll
+/Users/zlind/Documents/github/zlind1/games/mobile/ZLGames/ZLGames/obj/Debug/netstandard2.0/ref/ZLGames.dll
+/Users/zlind/Documents/github/zlind1/games/mobile/ZLGames/ZLGames/obj/Debug/netstandard2.0/ZLGames.pdb
