@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar, Nav } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 export default function NavBar(props) {
   return (
@@ -11,9 +11,11 @@ export default function NavBar(props) {
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
       <Navbar.Collapse id='basic-navbar-nav'>
         <Nav className='ml-auto'>
-          {props.links.map(link => <Nav.Link>
-            <Link to={link[1]} className='text-white'>{link[0]}</Link>
-          </Nav.Link>)}
+          {props.links.map(link =>
+            <NavLink as={Nav.Link} to={link[1]} style={{'color': 'lightgray'}} activeStyle={
+              {'font-weight':'bold', 'color': 'white'}
+            } className='m-2'>{link[0]}</NavLink>
+          )}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

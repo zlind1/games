@@ -1,4 +1,5 @@
 import boto3, uuid
+from boto3.dynamodb.conditions import Attr
 
 db = boto3.client('dynamodb')
 
@@ -15,7 +16,12 @@ class User:
             'password': {'S': self.password}
         })
     @staticmethod
-    def scan():
+    def scan(username=None):
+        if username:
+            return db.scan(TableName=User.tableName,
+                FilterExpression="username = :username",
+                ExpressionAttributeValues={':username': {'S': username}}
+            )
         return db.scan(TableName=User.tableName)
     @staticmethod
     def get(user_id):
